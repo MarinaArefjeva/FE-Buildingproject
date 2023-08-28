@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  background-color: coral;
+}
+
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.header-container {
+  padding-top: 190px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 35px 0;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 0 30px;
+  padding: 60px 130px;
+  background-color: #ffffff;
+}
+
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

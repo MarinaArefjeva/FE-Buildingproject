@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  background-image: url(assets/images/background.png);
+}
+.container {
+  max-width: 1110px;
+  margin: 0 auto;
+}
+.header-container {
+  padding-top: 190px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+
+  gap: 35px 0;
+  font-size: 35px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.cards {
+  display: flex;
+  gap: 0 30px;
+  padding: 60px 130px;
+  background-color: #ffffff;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Oswald", sans-serif;
+}
+
+.card-title {
+  width: 190px;
+  height: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 72px;
+  font-weight: 500;
+  color: #f7654a;
+}
+.card-description1 {
+  width: 190px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 500;
+}
+.card-description2 {
+  width: 190px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.projects {
+  height: 681px;
+
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sectioncards {
+  max-width: 1110px;
+  height: 681px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.container1 {
+  width: 506px;
+  height: 43px;
+  margin-top: 200px;
+}
+.h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+images {
+  width: 350px;
+  height: 380px;
+  margin-top: 1043px;
+  flex-direction: row;
+}
+.line {
+  width: 55px;
+  height: 6px;
+}
+
+.arena {
+  width: 142px;
+  height: 29px;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Oswald";
+}
+
+.paragraph {
+  width: 350px;
+  height: 83px;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Oswald";
+  flex-direction: row;
+}
