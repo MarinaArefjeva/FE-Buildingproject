@@ -76,64 +76,29 @@ body {
   font-weight: 500;
 }
 
-.projects {
-  height: 681px;
-
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.sectioncards {
-  max-width: 1110px;
-  height: 681px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.container1 {
-  width: 506px;
-  height: 43px;
-  margin-top: 200px;
-}
-.h2 {
-  font-size: 36px;
-  font-weight: 500;
-  font-family: "Oswald", sans-serif;
+.projects .heading {
   text-align: center;
+}
+.projects-list {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  gap: 0 30px;
+}
+.projects-item {
+  max-width: 350px;
+}
+.projects-item h3 {
+  margin-bottom: 20px;
 }
 
-images {
+/* .images {
   width: 350px;
   height: 380px;
   margin-top: 1043px;
   flex-direction: row;
-}
+} */
 .line {
   width: 55px;
   height: 6px;
-}
-
-.arena {
-  width: 142px;
-  height: 29px;
-  margin-top: 15px;
-  font-size: 24px;
-  font-weight: 500;
-  font-family: "Oswald";
-}
-
-.paragraph {
-  width: 350px;
-  height: 83px;
-  margin-top: 50px;
-  font-size: 16px;
-  font-weight: 500;
-  font-family: "Oswald";
-  flex-direction: row;
+  background-color: #f7654a;
+  margin: 45px 0 15px 0;
 }
