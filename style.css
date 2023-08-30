@@ -76,29 +76,152 @@ body {
   font-weight: 500;
 }
 
-.projects .heading {
-  text-align: center;
-}
-.projects-list {
+.sectioncards {
   display: flex;
-  gap: 0 30px;
-}
-.projects-item {
-  max-width: 350px;
-}
-.projects-item h3 {
-  margin-bottom: 20px;
+  justify-content: space-between;
 }
 
-/* .images {
+.container1 {
+  width: 506px;
+  height: 43px;
+  margin-top: 200px;
+}
+
+.h2 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+images {
   width: 350px;
   height: 380px;
   margin-top: 1043px;
   flex-direction: row;
-} */
+}
+
 .line {
   width: 55px;
   height: 6px;
+}
+.arena {
+  width: 142px;
+  height: 29px;
+  margin-top: 15px;
+  font-size: 24px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+}
+
+.paragraph {
+  width: 350px;
+  height: 83px;
+  margin-top: 50px;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  flex-direction: row;
+}
+
+.my_container_cards {
+  display: flex;
+}
+
+.projects h2 {
+  font-size: 36px;
+  text-align: center;
+  padding-top: 200px;
+  padding-bottom: 60px;
+}
+.block {
+  height: 181px;
+  margin-top: 200px;
+  justify-content: space-between;
+  display: flex;
+
   background-color: #f7654a;
-  margin: 45px 0 15px 0;
+}
+.section {
+  margin-bottom: 20px;
+  margin-left: 1000px;
+  color: white;
+  text-align: justify;
+  font-family: "Oswald", sans-serif;
+}
+.section h3 {
+  width: 537px;
+  height: 57px;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.section p3 {
+  width: 562px;
+  height: 29px;
+
+  margin-bottom: 45px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.button {
+  width: 175px;
+  height: 49px;
+  background-color: white;
+  display: flex;
+  margin-left: 1300px;
+  margin-right: 600px;
+}
+.button {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  text-align: center;
+  justify-content: center;
+}
+
+.whatwedoing {
+  display: flex;
+  justify-content: space-between;
+}
+.buildings {
+  width: 1110px;
+  height: 359px;
+}
+.h4 {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: "Oswald", sans-serif;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.threecards {
+  display: flex;
+}
+.sixcards {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  width: 350px;
+  height: 250px;
+  flex-direction: row;
+  gap: 0 30;
+  justify-content: space-between;
+}
+.Wrapper {
+  margin-top: -974;
+  padding-left: -961;
+}
+.text {
+  font-size: 21px;
+  font-weight: 500;
+  text-align: justify;
 }
