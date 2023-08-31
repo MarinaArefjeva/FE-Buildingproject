@@ -97,7 +97,7 @@ body {
   align-items: center;
 }
 
-images {
+.images {
   width: 350px;
   height: 380px;
   margin-top: 1043px;
@@ -131,59 +131,45 @@ images {
   display: flex;
 }
 
-.projects h2 {
+.project h2 {
   font-size: 36px;
   text-align: center;
   padding-top: 200px;
   padding-bottom: 60px;
 }
+
 .block {
   height: 181px;
   margin-top: 200px;
-  justify-content: space-between;
-  display: flex;
-
   background-color: #f7654a;
 }
 .section {
-  margin-bottom: 20px;
-  margin-left: 1000px;
-  color: white;
-  text-align: justify;
-  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  padding-top: 73px;
+  height: 181px;
+  align-content: center;
 }
-.section h3 {
-  width: 537px;
-  height: 57px;
-  font-size: 48px;
-  font-weight: 700;
-  margin-bottom: 20px;
-}
-.section p3 {
-  width: 562px;
-  height: 29px;
-
-  margin-bottom: 45px;
-  font-size: 24px;
-  font-weight: 700;
-}
-
-.button {
+.buttonSection {
   width: 175px;
   height: 49px;
   background-color: white;
-  display: flex;
-  margin-left: 1300px;
-  margin-right: 600px;
-}
-.button {
-  font-size: 14px;
-  font-weight: 500;
-  color: black;
-  text-align: center;
-  justify-content: center;
 }
 
+.blockLeft h3 {
+  color: white;
+  font-size: 48px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.blockLeft p3 {
+  color: white;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
 .whatwedoing {
   display: flex;
   justify-content: space-between;
@@ -203,25 +189,38 @@ images {
 }
 .threecards {
   display: flex;
+  justify-content: space-between;
+}
+.threeCardsTextFirst {
+  text-align: center;
+  margin-bottom: 66px;
+  margin-top: 150px;
+}
+
+.threeCardsTextSecond {
+  margin-top: 150px;
+  margin-bottom: 66px;
+  text-align: center;
 }
 .sixcards {
   display: flex;
-  align-items: flex-start;
+
   flex-wrap: wrap;
   justify-content: space-between;
-
-  width: 350px;
-  height: 250px;
   flex-direction: row;
-  gap: 0 30;
-  justify-content: space-between;
 }
-.Wrapper {
-  margin-top: -974;
-  padding-left: -961;
-}
-.text {
-  font-size: 21px;
+.contactText {
+  font-size: 36px;
   font-weight: 500;
-  text-align: justify;
+  text-align: center;
+  margin-top: 112px;
+  margin-bottom: 60px;
+}
+
+.contacts {
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
 }
