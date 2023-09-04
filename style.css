@@ -148,8 +148,9 @@ body {
   justify-content: center;
   justify-content: space-between;
   padding-top: 73px;
-  height: 181px;
+  align-items: center;
   align-content: center;
+  padding: 0 15px;
 }
 .buttonSection {
   font-size: 14px;
