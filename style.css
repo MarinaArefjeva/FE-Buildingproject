@@ -234,26 +234,25 @@ body {
   flex-direction: row;
 }
 .footer {
-  height: 82px;
   margin-top: 60px;
   background-color: #404149;
 }
 .footerblock {
   color: white;
-}
-.LeftText {
+  height: 82px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-bottom: 30px;
   font-size: 16px;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
-.RightText {
-  font-size: 16px;
-  font-weight: 400;
-  font-family: "Open Sans", sans-serif;
-  width: 221px;
-  height: 22px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+.h6 {
+  padding-left: 312px;
+  justify-content: center;
+  }
+
+.p4 {
+  padding-left: 1302px;  
 }
